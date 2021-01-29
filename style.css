@@ -6,18 +6,21 @@
 body {
     background-image: url(mk.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 135vh;
+    height: 175vh;
     font-family: "Poppins", sans-serif;
     margin: 0;
 }
 
 h1 {
+    font-weight: normal;
     font-size: 2rem;
     margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .countdown-container {
@@ -30,3 +33,10 @@ h1 {
     margin: 0 2rem;
 }
 
+.countdown-time {
+    text-align: center;
+}
+
+.countdown-time span {
+    font-size: 1.5rem;
+}

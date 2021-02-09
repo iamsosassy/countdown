@@ -30,6 +30,7 @@ h1 {
     font-size: 5rem;
     margin-top: 5rem;
     margin-top: 5rem;
+    color: silver
 }
 
 .countdown-container {
@@ -40,6 +41,7 @@ h1 {
     font-size: 6rem;
     line-height: 1;
     margin: 0 2rem;
+    color: silver
 }
 
 .countdown-time {
@@ -48,4 +50,8 @@ h1 {
 
 .countdown-time span {
     font-size: 1.5rem;
+}
+
+span {
+    color: silver
 }

@@ -1,4 +1,4 @@
-@media only screen and (max-width:620px) {
+@media only screen and (max-width: 480px) {
     /* For mobile phones: */
     .menu, .main, .right {
         width: 100%;
@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url("mnk.jpg");
+    background-image: url("cartooncouple.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -30,7 +30,7 @@ h1 {
     font-size: 5rem;
     margin-top: 5rem;
     margin-top: 5rem;
-    color: silver
+    
 }
 
 .countdown-container {
@@ -41,7 +41,7 @@ h1 {
     font-size: 6rem;
     line-height: 1;
     margin: 0 2rem;
-    color: silver
+   
 }
 
 .countdown-time {
@@ -52,6 +52,3 @@ h1 {
     font-size: 1.5rem;
 }
 
-span {
-    color: silver
-}

@@ -3,7 +3,7 @@ const hours = document.getElementById('hours');
 const mins = document.getElementById('mins');
 const secs = document.getElementById('secs');
 
-const weddingDay = new Date("May 2, 2021 16:59:60").getTime();
+const weddingDay = new Date("August 22, 2021 16:59:60").getTime();
 
 function countDown() {
     const newWeddingDate = new Date(weddingDay);

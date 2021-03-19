@@ -5,6 +5,7 @@ const secs = document.getElementById('secs');
 
 const weddingDay = new Date("August 22, 2021 16:59:60").getTime();
 
+
 function countDown() {
     const newWeddingDate = new Date(weddingDay);
     const currentDate = new Date();
@@ -44,3 +45,5 @@ function formatTime(time) {
 countDown();
 
 setInterval(countDown, 1000);
+
+

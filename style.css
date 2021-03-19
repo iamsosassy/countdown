@@ -59,7 +59,7 @@ h1 {
     font-size: 1.5rem;
 }
 
-form {
+input[type=submit] {
     background-color: pink;
     border-radius: 28px;
     border: 1px solid white;
@@ -73,12 +73,4 @@ form {
     position: relative;
     top: 50%;
     text-align: center;
-}
-
-/* submit:hover {
-    background-color: pink;
-} */
-
-form:active {
-  color: pink;
-}
+} 

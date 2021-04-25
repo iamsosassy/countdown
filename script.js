@@ -3,7 +3,7 @@ const hours = document.getElementById('hours');
 const mins = document.getElementById('mins');
 const secs = document.getElementById('secs');
 
-const weddingDay = new Date("August 22, 2021 16:59:60");
+const weddingDay = new Date("August 22, 2021 17:30:60");
 const copy = new Date();
 copy.setTime(weddingDay.getTime());
 (console.log(weddingDay));
